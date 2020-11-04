@@ -1,0 +1,8 @@
+2020/10/22 18:48:46.630 [I] [asm_amd64.s:1374]  http server Running on http://127.0.0.1:8080
+2020/10/22 18:48:56.694 [I] [AuthController.go:17]  hello world 
+2020/10/22 18:48:56.697 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     3.9983ms|   match|[44m GET     [0m /login   r:login
+2020/10/22 18:49:32.412 [I] [AuthController.go:17]  hello world 
+2020/10/22 18:49:32.415 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     2.9865ms|   match|[44m GET     [0m /login   r:login
+2020/10/22 18:51:25.887 [I] [asm_amd64.s:1374]  http server Running on http://127.0.0.1:8080
+2020/10/22 18:51:49.207 [I] [asm_amd64.s:1374]  http server Running on http://127.0.0.1:8080
+2020/10/22 18:51:50.330 [I] [asm_amd64.s:1374]  http server Running on http://127.0.0.1:8080
