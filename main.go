@@ -38,6 +38,8 @@ func main() {
 	o := orm.NewOrm()
 	o.Using("default") // 默认使用 default，你可以指定为其他数据库
 
+    	//启用Session
+    	beego.BConfig.WebConfig.Session.SessionOn = true
 	beego.SetLogger("file", `{"filename":"logs/test.log"}`)
 	beego.Run()
 }
